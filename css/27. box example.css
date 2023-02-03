@@ -1,0 +1,18 @@
+.cyan{
+  width: 700px;
+  height: 200px;
+  background-color: cyan;
+  position: relative;
+}
+.yellow{
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  position: relative;
+}
+.green{
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  position: relative;
+}
