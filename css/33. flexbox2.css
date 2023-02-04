@@ -16,7 +16,7 @@
   background-color: orange;
   height: 500px;
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-evenly;
 }
 .item{
