@@ -2,17 +2,41 @@
   width: 700px;
   height: 200px;
   background-color: cyan;
-  position: relative;
+  padding-top: 50px;
+}
+body{
+  margin-top: 100px;
+  margin-left: 200px;
 }
 .yellow{
-  width: 200px;
-  height: 200px;
+  width: 40px;
+  height: 40px;
   background-color: yellow;
-  position: relative;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px yellow;
+  margin-left: 100px;
+
 }
-.green{
-  width: 200px;
-  height: 200px;
+img{
+  width: 150px;
+  height: 150px;
+  margin-left: 500px;
+  margin-top: -70px;
+}
+.green1{
+  width: 500px;
+  height: 250px;
   background-color: green;
-  position: relative;
+  border-radius: 0 200% 0 0;
+  margin: -100px 0 0 0;
+  float: left;
+}
+.green2{
+  width: 500px;
+  height: 250px;
+  background-color: green;
+  border-radius: 200% 0 0 0;
+  margin: -100px 0 0 -300px;
+  float: left;
+
 }

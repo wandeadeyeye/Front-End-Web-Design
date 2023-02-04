@@ -1,0 +1,18 @@
+body{
+  border: 5px dashed green;
+  font-family: Arial;
+  font-style: italic;
+  font-size: 17px;
+}
+
+h1{
+  color: red;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+img{
+  width: 300px;
+  height: 300px;
+
+}
