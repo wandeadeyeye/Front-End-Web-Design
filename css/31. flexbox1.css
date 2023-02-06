@@ -1,5 +1,5 @@
 .flexContainer{
-  border: 3px solid blue;
+  border: 3px double blue;
   display: flex;
   flex-direction: row;
 }
@@ -43,7 +43,7 @@
 .box1{
   background-color: red;
   margin: 13px;
-  flex-basis: 50%;
+  flex-basis: 70%;
   flex-shrink: 1;
   flex: 0 1 auto;
 }
@@ -51,7 +51,7 @@
 .box2{
   background-color: pink;
   margin: 13px;
-  flex-basis: 100%;
+  flex-basis: 20%;
 }
 
 .box3{
