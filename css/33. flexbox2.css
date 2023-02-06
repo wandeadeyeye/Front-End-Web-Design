@@ -1,14 +1,26 @@
 /* .Container{
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap-reverse;
   flex-flow: row wrap;
+  background-color: orange;
 }
 .box{
   border: 1px solid blue;
   padding: 10px;
   flex-basis: 60%;
-  flex-grow:0;
+  flex-grow: 0;
   flex-shrink: 0;
-  background-color: orange;
 } */
+.flexcontainer{
+  background-color: yellow;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.item{
+  width: 60px;
+  height: 60px;
+  border: 2px solid blue;
+  background-color: pink;
+}
