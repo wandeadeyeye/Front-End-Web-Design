@@ -1,0 +1,26 @@
+.gridcontainer{
+  border: 2px solid blue;
+  padding: 10px;
+  display: grid;
+  /* grid-template-columns: 100px 200px 300px;
+  grid-template-rows: 100px 200px 300px; */
+  grid-template: 100px 200px 300px 100px / repeat(3, 1fr);
+  grid-gap: 5px;
+
+  /* justify-items;stretch/start/end/center */
+  /* justify-items: end;
+
+  align-items: start; */
+
+  /* place-items: start end; */
+
+}
+.box{
+  background-color: pink;
+  border: 2px solid blue;
+}
+
+.box3{
+  align-self: start;
+  justify-self: end;
+}

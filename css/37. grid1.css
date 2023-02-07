@@ -1,0 +1,16 @@
+.gridcontainer{
+  border: 2px solid blue;
+  padding: 10px;
+  display: grid;
+  /* grid-template-columns: 100px 200px 300px;
+  grid-template-rows: 100px 200px 300px; */
+  grid-template: 100px 200px 300px / repeat(4, 1fr);
+  grid-gap: 10px;
+}
+.box{
+  background-color: pink;
+  border: 2px solid blue;
+}
+.box7{
+  order: -1;
+}
