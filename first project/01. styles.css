@@ -1,0 +1,35 @@
+.heading{
+  background-color: #D61355;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.wholecontainer{
+  display: grid;
+  grid-auto-rows: auto;
+  background-color: #942b4e;
+  border: 2px double palevioletred;
+}
+.item{
+  padding: 20px;
+  width: 200px;
+  margin: 20px;
+
+}
+.item > img{
+  width: 100%;
+}
+
+body{
+  margin: 0 auto;
+}
+p{
+  font-family: Arial;
+  font-size: 1em;
+  padding: 20px;
+}
+.li{
+  margin: none;
+}
+.ul{
+  background-color: #D61355;
+}
