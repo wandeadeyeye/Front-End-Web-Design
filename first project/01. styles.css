@@ -22,11 +22,13 @@
 body{
   margin: 0 auto;
 }
+
 p{
   font-family: Arial;
   font-size: 1em;
   padding: 20px;
 }
+
 .li{
   margin: none;
 }
