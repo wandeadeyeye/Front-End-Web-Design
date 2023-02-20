@@ -29,8 +29,9 @@ p{
   padding: 20px;
 }
 
-.li{
+li{
   margin: none;
+  box-shadow: #061718;
 }
 .ul{
   background-color: #D61355;
