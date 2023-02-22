@@ -1,0 +1,47 @@
+body{
+    background: rgb(255, 255, 255);
+    color: rgb(2, 8, 8);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    
+}
+
+header{
+
+}
+
+nav{
+
+}
+
+section{
+
+}
+
+article{
+
+}
+
+footer{
+
+}
+
+h2{
+    border-top: 3px double purple;
+    border-bottom: 3px solid rgb(0, 128, 53);
+    /* border: 3px double purple; */
+    /* margin: 50px; */
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding: 10px 10px 20px 15px;
+    /* padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 15px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    font-weight: 800;
+}
