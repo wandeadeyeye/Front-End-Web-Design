@@ -4,6 +4,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 19px;
     font-weight: 400;
+    /* width: 50%; */
+    max-width: 750px;
     
 }
 
@@ -44,4 +46,9 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 27px;
     font-weight: 800;
+}
+
+.imgone{
+    /* height: 50px; */
+    /* width: 200px; */
 }
