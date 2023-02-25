@@ -48,10 +48,10 @@ h2{
     font-size: 27px;
     font-weight: 800;
     /* display: none; */
-    position: relative;
+    position: absolute;
     left: 20px;
     top: 200px;
-    right: 200px;
+    /* right: 200px; */
 }
 
 .imgone{
@@ -62,4 +62,12 @@ h2{
 span{
     display: block;
 
+}
+
+.header1{
+    z-index: 2;
+}
+
+.header2{
+    z-index: 1;
 }
