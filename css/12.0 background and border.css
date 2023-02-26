@@ -1,0 +1,18 @@
+body{
+    color: #05baf1;
+     background-color: pink;
+    background-image: url(photos/flower.jpg);
+    background: pink url(photos/flower.jpg) no-repeat center bottom;
+    background: linear-gradient(90deg, green, white, green);
+}
+
+h1{
+    border: 5px double green;
+    padding: 10px;
+    border-radius: 30px 20px 15px 0px;
+    box-shadow: 7px 7px 5px green;
+    border-image: url(photos/estasio_ico.png) 20 round;
+    -webkit-border-image: url(photos/estasio_ico.png) 20 round;
+    -o-border-image: url(photos/estasio_ico.png) 20 round;
+    -moz-border-image: url(photos/estasio_ico.png) 20 round;
+}

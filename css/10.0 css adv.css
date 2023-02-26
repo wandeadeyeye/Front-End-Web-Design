@@ -7,10 +7,12 @@ body{
 }
 
 h1{
-    border: 10px solid transparent;
-    padding: 20px;
-    border-image: url(photos/estasio_ico.png) 10 round;
-    -webkit-border-image: url(photos/estasio_ico.png) 10 round;
-    -o-border-image: url(photos/estasio_ico.png) 10 round;
-    -moz-border-image: url(photos/estasio_ico.png) 10 round;
+    border: 5px double green;
+    padding: 10px;
+    border-radius: 30px 20px 15px 0px;
+    box-shadow: 7px 7px 5px green;
+    /* border-image: url(photos/estasio_ico.png) 20 round;
+    -webkit-border-image: url(photos/estasio_ico.png) 20 round;
+    -o-border-image: url(photos/estasio_ico.png) 20 round;
+    -moz-border-image: url(photos/estasio_ico.png) 20 round; */
 }
