@@ -1,0 +1,25 @@
+body{
+    color: #05baf1;
+     background-color: pink;
+}
+
+h1{
+    border: 5px double green;
+    padding: 10px;
+    border-radius: 30px 20px 15px 0px;
+    box-shadow: 7px 7px 5px green;
+    text-transform: lowercase;
+    letter-spacing: 5px;
+    text-align: center;
+    text-shadow: 5px 3px 10px #05baf1;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    /* text-decoration: line-through; */
+    text-transform: uppercase;
+    color: red;
+}
