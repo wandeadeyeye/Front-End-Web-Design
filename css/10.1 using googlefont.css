@@ -24,3 +24,17 @@ a:hover{
     text-transform: uppercase;
     color: red;
 }
+
+.anim{
+    border-radius: 70%;
+    position: relative;
+    background: #05baf1;
+    height: 100px;
+    width: 200px;
+    animation: 2s linear 3s infinite alternate animone;
+}
+
+@keyframes animone{
+    form{transform: translateX(0px);}
+    to{transform: translateX(1000px);}
+}
