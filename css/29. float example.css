@@ -13,9 +13,17 @@ h1{
 
 a{
   color: green;
-  text-decoration-line: green;
+  text-decoration-line: none;
   font-weight: bold;
+  text-transform: unset;
+
 }
+
+a:hover{
+  text-transform: uppercase;
+  color: blue;
+}
+
 .p2{
   text-decoration: underline dotted green;
 }
