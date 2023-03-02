@@ -22,6 +22,10 @@ li{
 
 a{
   text-decoration: none;
+  margin: auto;
+  border: 2px solid #13b9c2;
+  border-radius: 90px;
+  padding: 10px;
 }
 
 .flexcontainer{
@@ -54,6 +58,8 @@ body{
   grid-template: 1fr / repeat(auto-fit, minmax(200px,1fr));
   grid-gap: 20px;
   padding: 20px;
+  text-align: center;
+  text-decoration-color: #061718;
 }
 
 .box{
