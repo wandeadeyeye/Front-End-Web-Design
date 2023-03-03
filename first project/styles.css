@@ -26,13 +26,14 @@ a{
   border: 2px solid #13b9c2;
   border-radius: 90px;
   padding: 10px;
+  background-color: #7fcee6;
+  color: #13b9c2;
 }
 
 .flexcontainer{
   display: flex;
   background-color: #226B80;
   box-shadow: rgba(0, 0, 0, 0, 5) 0px 5px 15px, inset rgba(0, 0, 0, 15) 0px -10px 20px;
-
 }
 
 .all-sections{
@@ -44,7 +45,9 @@ a{
 p{
   font-family: Arial;
   font-size: 1em;
-  padding: 20px;
+  padding: 10px;
+  color: #f7f7f7;
+  font-style: italic;
 }
 
 body{
@@ -65,7 +68,7 @@ body{
 .box{
   margin: 20px;
   padding: 20px;
-  background-color: #00A8B5;
+  background-color: #13b9c2;
 }
 
 .box > img{
