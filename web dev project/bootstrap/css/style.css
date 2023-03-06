@@ -1,7 +1,58 @@
+/* general changes */
+h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+
 .navbar{
     border-bottom: blueviolet solid 2px;
 }
 
 .navbar-brand{
-    color: blueviolet;
+    color: blueviolet !important;
 }
+
+.title{
+    font-size: 30px;
+}
+
+.nav-link{
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    color: blueviolet !important;
+}
+
+#header{
+    background: url(../images/pc.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1{
+    margin-top: 5px;
+}
+
+.fa-solid{
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.mt-3:hover{
+    color: blueviolet !important;
+    cursor: pointer;
+}
+
+
+/* features section */
+
+/* #features i{
+    color: blueviolet;
+    cursor: pointer;
+} */
+
+#features h3:hover{
+    
+}
+/* features section */
