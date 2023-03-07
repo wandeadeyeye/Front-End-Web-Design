@@ -1,8 +1,11 @@
 /* general changes */
+
 h3{
     font-size: 30px;
     font-weight: bold;
 }
+
+/* navigation bar */
 
 .navbar{
     border-bottom: blueviolet solid 2px;
@@ -24,6 +27,8 @@ h3{
     color: blueviolet !important;
 }
 
+/* header section */
+
 #header{
     background: url(../images/pc.jpg) no-repeat;
     background-size: cover;
@@ -32,6 +37,12 @@ h3{
 
 h1{
     margin-top: 5px;
+}
+
+/* features section */
+
+#features{
+    background-color: rgb(32, 119, 119);
 }
 
 .fa-solid{
@@ -43,16 +54,3 @@ h1{
     color: blueviolet !important;
     cursor: pointer;
 }
-
-
-/* features section */
-
-/* #features i{
-    color: blueviolet;
-    cursor: pointer;
-} */
-
-#features h3:hover{
-    
-}
-/* features section */
