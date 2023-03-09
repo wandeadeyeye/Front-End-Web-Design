@@ -64,3 +64,23 @@ h1{
     background-attachment: fixed;
     background-size: cover;
 }
+
+/* history section */
+
+#history{
+    background-color: aliceblue;
+}
+
+.historyarea{
+    background-color: white;
+    height: 450px;
+    margin-right: -20px;
+    padding: 30px;
+}
+
+.historyimage{
+    margin-top: 40px;
+    margin-left: 20px;
+    z-index: 1;
+    position: relative;
+}
