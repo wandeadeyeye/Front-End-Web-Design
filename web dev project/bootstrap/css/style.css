@@ -68,19 +68,19 @@ h1{
 /* history section */
 
 #history{
-    background-color: aliceblue;
+    background-color: gray;
 }
 
 .historyarea{
     background-color: white;
-    height: 450px;
-    margin-right: -20px;
+    height: 300px;
+    margin-right: 20px;
     padding: 30px;
 }
 
 .historyimage{
-    margin-top: 40px;
-    margin-left: 20px;
-    z-index: 1;
+    margin-top: 90px;
+    margin-left: -50px;
+    z-index: 50;
     position: relative;
 }
