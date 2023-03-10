@@ -27,6 +27,10 @@ h3{
     color: blueviolet !important;
 }
 
+.d-flex{
+    justify-items: center;
+}
+
 /* header section */
 
 #header{
@@ -68,19 +72,20 @@ h1{
 /* history section */
 
 #history{
-    background-color: aliceblue;
+    background-color: gray;
 }
 
 .historyarea{
     background-color: white;
-    height: 450px;
-    margin-right: -20px;
-    padding: 30px;
+    height: 300px;
+    margin-right: 5px;
+    padding: 5px;
 }
 
 .historyimage{
-    margin-top: 40px;
-    margin-left: 20px;
-    z-index: 1;
+    height: 300px;
+    width: 449px;
+    margin-left: 5px;
+    z-index: 30;
     position: relative;
 }
