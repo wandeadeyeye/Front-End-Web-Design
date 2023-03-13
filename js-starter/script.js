@@ -27,3 +27,14 @@ schoolName = 'OKUni';
 hasCourse = true;
 
 console.log(schoolName + ' has data science course?' + ' ' + hasCourse);
+
+schoolSport = 'soccer'
+console.log(schoolSport);
+
+word = 'leg';
+console.log(word);
+
+alert(word);
+
+var age = prompt('How old is he?');
+console.log('John is ' +  age  + ' years old')
