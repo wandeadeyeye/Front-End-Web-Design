@@ -73,7 +73,7 @@ h1{
 /* history section */
 
 #history{
-    background-color: gray;
+    background-color: whitesmoke;
 }
 
 .historyarea{
@@ -81,11 +81,13 @@ h1{
     height: 300px;
     margin-right: 5px;
     padding: 5px;
+    padding-bottom: 5px;
 }
 
 .historyimage{
     height: 300px;
-    width: 449px;
+    /* width: 449px; */
+    width: 400px;
     margin-left: 5px;
     z-index: 30;
     position: relative;
@@ -126,6 +128,86 @@ h1{
 
 /* forms section */
 
-/* #forms{
-    background-color: rgb(31, 28, 28);
-} */
+#forms{
+    background-color: rgb(61, 60, 60);
+    width: 100%;
+}
+
+#forms .container{
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socials{
+    margin: 20px 0;
+}
+
+.socials a{
+    color: aliceblue;
+    margin-right: 25px;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.content .h2{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+#form .container ,.content{
+    padding: 10px 20px;
+    color: aliceblue;
+}
+
+.second{
+    margin-left: 180px;
+}
+
+@media screen and (max-width: 1400px){
+    #header{
+        background-size: 1400px 100vh;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    #header{
+        background-size: 1200px 100vh;
+    } 
+}
+
+@media screen and (max-width: 992px){
+    #header{
+        background-size: 992px 100vh;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #header{
+        background-size: 768px 100vh;
+    }
+    .historyimage{
+        margin-left: 0;
+        margin-top: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 576px){
+    #header{
+        background-size: 576px 100vh;
+    }
+    .historyimage{
+        margin-left: 0;
+        margin-top: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 576px){
+    #header{
+        background-size: 576px 100vh;
+    }
+}
