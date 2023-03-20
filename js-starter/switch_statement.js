@@ -28,6 +28,14 @@ var age;
 
 age = 19;
 
+switch (true) {
+    if case (age < 18):
+    console.log('sorry buddy, too young no entry');
+        break;
+
+    default:
+        break;
+}
 if (age < 18) {
     console.log('sorry buddy, too young no entry');
 }else if (age >= 18 && age < 23) {
