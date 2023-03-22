@@ -8,15 +8,11 @@ console.log('Alex average grade:', alex_grades);
 console.log('Sara average grade:', sara_grades);
 console.log('Nancy average grade:', nancy_grades);
 
+// finding who has the highest medium grade
+
 switch (true) {
-    case (alex_grades < sara_grades && alex_grades < nancy_grades):
-        console.log('alex has the least grades of the three');
-        break;
     case (alex_grades > sara_grades && alex_grades > nancy_grades):
         console.log('alex has the most grades of them all');
-        break;
-    case (sara_grades < nancy_grades && sara_grades < nancy_grades):
-        console.log('sara has the least grades of the three');
         break;
     case (sara_grades > nancy_grades && sara_grades > nancy_grades):
         console.log('sara has the most grades of them all');
@@ -24,10 +20,6 @@ switch (true) {
     case (nancy_grades > alex_grades && nancy_grades > sara_grades):
         console.log('nancy has the most grades of them all');
         break;
-    case (nancy_grades < alex_grades && nancy_grades < sara_grades):
-        console.log('nancy has the least grades of the three');
-        break;
-
     default:
         console.log('might be a tie');
         break;
