@@ -1,0 +1,1 @@
+////////////// FUNCTION DECLERATION AND EXPRESSION //////////////
