@@ -15,5 +15,7 @@ var calculateAge = age(2000);
 console.log('He is', calculateAge, 'years old');
 
 calculateAge = 'john';
-console.log('His name is ',calculateAge);
+console.log('His name is',calculateAge);
 
+calculateAge = 'Tomi';
+console.log('His middle name is',calculateAge);
