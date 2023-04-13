@@ -2,13 +2,118 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
 }
 
 .container {
-  width: 100%;
   height: 100vh;
   background: linear-gradient(273deg, rgba(142,193,255,1) 0%, rgba(187,151,244,1));
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.card {
+  height: 400px;
+  position: relative;
+  display: flex;
+  z-index: 1;
+}
+
+.content {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(37, 35, 92, 0.5);
+  color: #fff;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  transition: opacity .2s ease-out;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.card:hover .content {
+  opacity: 1;
+}
+
+.content h3 {
+  text-transform: uppercase;
+}
+
+.content p {
+  font-size: 14px;
+  width: 80%;
+}
+
+.icons {
+  list-style: none;
+  display: flex;
+  column-gap: 20px;
+}
+
+.icons a{
+  color: #fff;
+}
+
+.icons i {
+  transform: all .2s ease-in-out;
+  padding: 5px;
+}
+
+.icons i:hover {
+  background: #fff;
+  transform: scale(1.3);
+}
+
+.fa-square-facebook:hover {
+  color: #3b5998;
+}
+
+.fa-square-twitter:hover {
+  color: #00acee;
+}
+
+.fa-blogger:hover {
+  color: #ddae15;
+}
+
+.fa-linkedin:hover {
+  color: #00acee;
+}
+
+.card:before {
+  background: url(../assets/background.jpg), no-repeat;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.card:after {
+  background: #25235c;
+  top: 1rem;
+  left: 1rem;
+}
+
+.card:before, .card:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transition: 0.3s ease;
+}
+
+.card:hover:before {
+  bottom: 2rem;
+  right: 2rem;
+}
+
+.card:hover:after {
+  top: 2rem;
+  left: 2rem;
 }
