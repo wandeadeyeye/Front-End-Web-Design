@@ -1,8 +1,198 @@
-.container .text{
-    font-size: 35px;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background: #051a29; */
+    background: url(../assets/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #dbd2d2;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: #dbd2d2;
+    text-decoration: none;
     font-weight: 600;
-    text-align: center;
-    background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #dbd2d2;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar .active {
+    color: #36a2f0;
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.content {
+    max-width: 600px;
+}
+
+.content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #36a2f0;
+}
+
+.content p {
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.content .btn {
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+}
+
+.btn a {
+    position: relative;
+    display: inline-flex;
+    width: 150px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #36a2f0;
+    border: 2px solid #36a2f0;
+    border-radius: 5px;
+    font-size: 19px;
+    color: #051a29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s ease;
+}
+
+.btn a:hover {
+    color: #36a2f0;
+}
+
+.btn a:nth-child(2) {
+    background: transparent;
+    color: #36a2f0;
+}
+
+.btn a:nth-child(2):hover {
+    color: #051a29;
+}
+
+.btn a:nth-child(2)::before {
+    background: #36a2f0;
+}
+
+.btn a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #051a29;
+    z-index: -1;
+    transition: .5s ease;
+}
+
+.btn a:hover::before {
+    width: 100%;
+}
+
+.home-icon {
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-icon a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #36a2f0;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #36a2f0;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s ease;
+}
+
+.home-icon a:hover {
+    color: #051a29;
+}
+
+.home-icon a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #36a2f0;
+    z-index: -1;
+    transition: .5s ease;
+}
+
+.home-icon a:hover::before {
+    width: 100%;
+}
+
+.imghover {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 500px;
+    height: 100%;
+    background: transparent;
+    border: 2px solid red;
+    transition: .3 ease;
+}
+
+.imghover:hover {
+    background: yellow;
+    opacity: .3;
 }
