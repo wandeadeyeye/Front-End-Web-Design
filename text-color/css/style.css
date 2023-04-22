@@ -6,8 +6,8 @@
 }
 
 body {
-    /* background: #051a29; */
-    background: url(../assets/background.jpg) no-repeat;
+    background: #051a29;
+    /* background: url(../assets/picc.jpg) no-repeat; */
     background-size: cover;
     background-position: center;
     color: #dbd2d2;
@@ -184,15 +184,14 @@ body {
 .imghover {
     position: absolute;
     top: 0;
-    right: 30px;
-    width: 500px;
+    right: 20px;
+    width: 540px;
     height: 100%;
     background: transparent;
-    border: 2px solid red;
-    transition: .3 ease;
+    transition: .3;
 }
 
 .imghover:hover {
-    background: yellow;
-    opacity: .3;
+    background: #fff;
+    opacity: .5;
 }
