@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -12,6 +13,13 @@ body {
     background-position: center;
     color: #dbd2d2;
 }
+
+/* .container {
+    border: 2px solid #36a2f0;
+    color: #36a2f0;
+    height: 500px;
+    width: 500px;
+} */
 
 .header {
     position: fixed;
@@ -192,6 +200,5 @@ body {
 }
 
 .imghover:hover {
-    background: #fff;
-    opacity: .5;
+    
 }
