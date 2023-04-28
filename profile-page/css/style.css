@@ -46,7 +46,6 @@ body {
 
 .navbar a:hover,
 .navbar .active {
-    /* color: #8e7991; */
     color: #9c899e;
 }
 
@@ -89,7 +88,6 @@ body {
 .content h3 {
     font-size: 32px;
     font-weight: 700;
-    /* color: #8e7991; */
     color: #9c899e;
     cursor: pointer;
 }
@@ -116,9 +114,7 @@ body {
     align-items: center;
     background: #f4eef0;
     border: 2px solid #f4eef0;
-    border-radius: 5px;
     font-size: 19px;
-    /* color: #8e7991; */
     color: #393646;
     text-decoration: none;
     font-weight: 600;
@@ -138,7 +134,6 @@ body {
 }
 
 .btn a:nth-child(2):hover {
-    /* color: #8e7991; */
     color: #393646;
 }
 
@@ -153,7 +148,6 @@ body {
     left: 0;
     width: 0;
     height: 100%;
-    /* background: #8e7991; */
     background: #393646;
     z-index: -1;
     transition: .5s ease;
@@ -165,61 +159,23 @@ body {
 
 .socials {
     position: absolute;
-    bottom: 40px;
-    width: 170px;
+    bottom: 50px;
+    width: 250px;
     display: flex;
     justify-content: space-between;
 }
 
 .socials a {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* width: 40px;
-    height: 40px; */
-    /* background: red; */
-    /* border: 2px solid #f4eef0; */
-    /* border-radius: 50%; */
-    font-size: 11px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 500;
     color: #f4eef0;
     text-decoration: none;
     text-transform: uppercase;
-    /* z-index: 1; */
-    /* overflow: hidden;
-    transition: .5s ease; */
 }
 
 .socials a:hover {
     color: #9c899e;
 }
-
-/* .home-icon a::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: #f4eef0;
-    z-index: -1;
-    transition: .5s ease;
-} */
-
-/* .home-icon a:hover::before {
-    width: 100%;
-} */
-
-/* .imghover {
-    position: absolute;
-    top: 0;
-    right: 20px;
-    width: 540px;
-    height: 100%;
-    background: transparent;
-    transition: .3;
-} */
 
 /* picture */
 
@@ -233,7 +189,7 @@ body {
 }
   
 .card:after {
-    background: linear-gradient(230deg, #f4eef0, #393646, #f4eef0, #393646, #f4eef0, #393646);
+    background: linear-gradient(195deg, #f4eef0, #9c899e, #393646, #f4eef0, #9c899e, #393646);
     top: .5rem;
     left: .5rem;
 }
