@@ -7,19 +7,11 @@
 }
 
 body {
-    background: #051a29;
-    /* background: url(../assets/picc.jpg) no-repeat; */
+    background: #393646;
     background-size: cover;
     background-position: center;
-    color: #dbd2d2;
+    color: #f4eef0;
 }
-
-/* .container {
-    border: 2px solid #36a2f0;
-    color: #36a2f0;
-    height: 500px;
-    width: 500px;
-} */
 
 .header {
     position: fixed;
@@ -35,52 +27,75 @@ body {
 }
 
 .logo {
-    font-size: 25px;
-    color: #dbd2d2;
+    font-size: 30px;
+    color: #f4eef0;
     text-decoration: none;
     font-weight: 600;
 }
 
 .navbar a {
+    display: inline-block;
+    position: relative;
     font-size: 18px;
-    color: #dbd2d2;
+    color: #f4eef0;
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
-    transition: .3s;
+    transition: .3s ease;
 }
 
 .navbar a:hover,
 .navbar .active {
-    color: #36a2f0;
+    color: #9c899e;
+}
+
+
+.navbar .active::before,
+.navbar a::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    background: #8e7991;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    transition: 0.5s ease-in-out;
+}
+
+.navbar .active::before,
+.navbar a:hover::after{
+    width: 100%;
 }
 
 .home {
     height: 100vh;
     display: flex;
     align-items: center;
-    padding: 0 10%;
+    padding: 0 9%;
 }
 
 .content {
-    max-width: 600px;
+    max-width: 700px;
 }
 
 .content h1 {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.2;
+    cursor: pointer;
 }
 
 .content h3 {
     font-size: 32px;
     font-weight: 700;
-    color: #36a2f0;
+    color: #9c899e;
+    cursor: pointer;
 }
 
 .content p {
     font-size: 16px;
     margin: 20px 0 40px;
+    cursor: pointer;
 }
 
 .content .btn {
@@ -97,11 +112,10 @@ body {
     height: 100%;
     justify-content: center;
     align-items: center;
-    background: #36a2f0;
-    border: 2px solid #36a2f0;
-    border-radius: 5px;
+    background: #f4eef0;
+    border: 2px solid #f4eef0;
     font-size: 19px;
-    color: #051a29;
+    color: #393646;
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 1px;
@@ -111,20 +125,20 @@ body {
 }
 
 .btn a:hover {
-    color: #36a2f0;
+    color: #f4eef0;
 }
 
 .btn a:nth-child(2) {
     background: transparent;
-    color: #36a2f0;
+    color: #f4eef0;
 }
 
 .btn a:nth-child(2):hover {
-    color: #051a29;
+    color: #393646;
 }
 
 .btn a:nth-child(2)::before {
-    background: #36a2f0;
+    background: #f4eef0;
 }
 
 .btn a::before {
@@ -134,7 +148,7 @@ body {
     left: 0;
     width: 0;
     height: 100%;
-    background: #051a29;
+    background: #393646;
     z-index: -1;
     transition: .5s ease;
 }
@@ -143,62 +157,53 @@ body {
     width: 100%;
 }
 
-.home-icon {
+.socials {
     position: absolute;
-    bottom: 40px;
-    width: 170px;
+    bottom: 50px;
+    width: 250px;
     display: flex;
     justify-content: space-between;
 }
 
-.home-icon a {
-    position: relative;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    background: transparent;
-    border: 2px solid #36a2f0;
-    border-radius: 50%;
-    font-size: 20px;
-    color: #36a2f0;
+.socials a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #f4eef0;
     text-decoration: none;
-    z-index: 1;
-    overflow: hidden;
-    transition: .5s ease;
+    text-transform: uppercase;
 }
 
-.home-icon a:hover {
-    color: #051a29;
+.socials a:hover {
+    color: #9c899e;
 }
 
-.home-icon a::before {
+/* picture */
+
+.card {
+    height: 500px;
+    width: 500px;
+    position: relative;
+    display: flex;
+    left: 20;
+    margin-left: 200px;
+}
+  
+.card:after {
+    background: linear-gradient(195deg, #f4eef0, #9c899e, #393646, #f4eef0, #9c899e, #393646);
+    top: .5rem;
+    left: .5rem;
+}
+  
+.card:before, .card:after {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: #36a2f0;
-    z-index: -1;
-    transition: .5s ease;
-}
-
-.home-icon a:hover::before {
     width: 100%;
-}
-
-.imghover {
-    position: absolute;
-    top: 0;
-    right: 20px;
-    width: 540px;
     height: 100%;
-    background: transparent;
-    transition: .3;
+    z-index: -1;
+    transition: 0.3s ease;
 }
-
-.imghover:hover {
-    
+  
+.card:hover:after {
+    top: 1rem;
+    left: 1rem;
 }
