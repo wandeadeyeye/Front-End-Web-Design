@@ -4,6 +4,7 @@ h1{
   text-align: center;
   text-decoration: underline;
 }
+
 p{
   font-family: Tahoma;
   font-style: italic;
@@ -11,6 +12,7 @@ p{
   text-decoration: line-through;
   line-height: 2;
 }
+
 span{
   font-weight: bold;
 }
