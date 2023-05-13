@@ -2,13 +2,13 @@ div{
   width: 250px;
   height: 200px;
   border: 3px solid green;
-  /* padding: 100px */
+  /* padding: 100px; */
   padding-left: 75px;
   padding-right: 100px;
   padding-top: 75px;
   padding-bottom: 100px;
   /* margin: 100px; */
   margin: 100px 150px 175px 200px;
-  margin: 100px 300px;
+  /* margin: 100px 300px; */
 
 }
