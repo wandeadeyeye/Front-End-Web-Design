@@ -20,7 +20,7 @@ a{
 }
 
 a:hover{
-    /* text-decoration: line-through; */
+    text-decoration: underline;
     text-transform: uppercase;
     color: red;
 }

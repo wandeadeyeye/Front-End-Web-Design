@@ -1,8 +1,8 @@
 body{
     color: #05baf1;
-     background-color: pink;
-    /*background-image: url(photos/flower.jpg); */
-    /* background: pink url(photos/flower.jpg) no-repeat center bottom; */
+    background-color: pink;
+    /* background-image: url(assets/flower.jpg); */
+    /* background: pink url(assets/flower.jpg) no-repeat center bottom; */
     /* background: linear-gradient(90deg, green, white, green); */
 }
 
