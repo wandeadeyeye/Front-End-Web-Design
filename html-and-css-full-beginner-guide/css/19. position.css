@@ -3,6 +3,8 @@
   width: 100px;
   background-color: red;
   position: static;
+  right: 30px;
+  bottom: 20px;
 }
 
 .blue{
@@ -19,7 +21,9 @@
   width: 100px;
   background-color: yellow;
   position: absolute;
-  right: 100px
+  /* right: 100px */
+  right: 300px;
+  bottom: 200px;
 
 }
 
@@ -28,6 +32,8 @@
   width: 100px;
   background-color: green;
   position: fixed;
+  right: 300px;
+  bottom: 200px;
 }
 
 p{
