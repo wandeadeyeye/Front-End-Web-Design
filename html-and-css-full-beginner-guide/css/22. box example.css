@@ -1,12 +1,12 @@
+body{
+  margin-top: 100px;
+  margin-left: 200px;
+}
 .cyan{
   width: 700px;
   height: 200px;
   background-color: cyan;
   padding-top: 50px;
-}
-body{
-  margin-top: 100px;
-  margin-left: 200px;
 }
 .yellow{
   width: 40px;
