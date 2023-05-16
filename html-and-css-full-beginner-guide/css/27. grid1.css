@@ -4,7 +4,7 @@
   display: grid;
   /* grid-template-columns: 100px 200px 300px;
   grid-template-rows: 100px 200px 300px; */
-  grid-template: 100px 200px 300px / repeat(4, 1fr);
+  grid-template: 100px 200px 300px / repeat(3, 1fr);
   grid-gap: 10px;
 }
 .box{
