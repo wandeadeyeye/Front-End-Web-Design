@@ -1,21 +1,23 @@
-/* .Container{
+.container{
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: wrap;
   background-color: orange;
 }
+
 .box{
   border: 1px solid blue;
   padding: 10px;
   flex-basis: 60%;
   flex-grow: 0;
   flex-shrink: 0;
-} */
-.flexcontainer{
+}
+
+/* .flexcontainer{
   background-color: yellow;
   height: 300px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .item{
@@ -23,4 +25,4 @@
   height: 60px;
   border: 2px solid blue;
   background-color: pink;
-}
+} */

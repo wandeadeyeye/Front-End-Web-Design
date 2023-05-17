@@ -7,28 +7,37 @@
   grid-template: 100px 200px 300px / repeat(3, 1fr);
   /* grid-gap: 10px; */
 }
+
 .box{
   background-color: pink;
   border: 2px solid blue;
 }
+
 .box7{
   order: -1;
 }
 
-.box1{
+/* .box1{
   grid-row-start: 2;
   grid-row-end: 3;
   grid-column-start: 2;
   grid-column-end: 3;
-}
+} */
+
+/* .box4{
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 3;
+  grid-column-end: 4;
+} */
 
  /* grid-row: row-start value / row-end value
  grid-column: column-start value / column-end value */
 
-.box2{
+/* .box2{
   grid-row: 3/4;
   grid-column: 2/3;
-}
+} */
 
 /* grid-area: row-start value / column-start value / row-end value / column-end value */
 
@@ -38,4 +47,8 @@
 
 .box3{
   grid-area: 2/1/3/3
+}
+
+.box5{
+  grid-area: 2/3/4/4;
 }

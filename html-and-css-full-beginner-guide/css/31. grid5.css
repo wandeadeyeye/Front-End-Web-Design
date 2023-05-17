@@ -14,8 +14,11 @@
 
   justify-content: start/center/end/space-around/space-between/space-evenly;
 
-  justify-content: end; */
+  justify-content: end; 
+  justify-content: center;
+  align-content: center; */
 }
+
 .box{
   background-color: yellow;
   border: 2px solid blue;
