@@ -1,5 +1,6 @@
 ///////////////////////////// DOM MANIPULATION ///////////////////////////
 
+
 var h1Element = document.querySelector('h1');
 
 h1Element.style.textAlign = 'center';
@@ -20,6 +21,10 @@ setInterval(function () {
     }
     isYellow = !isYellow
 }, 1000);
+
+
+////////////////////////// DOM SELECTION //////////////////////////
+
 
 var selectWithID = document.getElementById('paragraph1');
 console.log(selectWithID);
@@ -44,3 +49,22 @@ console.log(selectWithQueryAll);
 
 var selectWithQueryAllClass = document.querySelectorAll('.newclass')
 console.log(selectWithQueryAllClass);
+
+
+///////////////////////// MANIPULATION METHOD /////////////////////////
+
+
+var selectToManipulate = document.querySelector('.newclass')
+
+// selectToManipulate.style.background = 'red';
+// selectToManipulate.style.height = '50px';
+// selectToManipulate.style.width = '400px';
+// selectToManipulate.style.fontSize = '50px';
+// selectToManipulate.style.border = '2px solid black';
+
+// selectToManipulate.classList.add('addPropeties');
+// selectToManipulate.classList.remove('addPropeties')
+
+selectToManipulate.classList.toggle('addPropeties')
+selectToManipulate.classList.toggle('addPropeties')
+selectToManipulate.classList.toggle('addPropeties')
