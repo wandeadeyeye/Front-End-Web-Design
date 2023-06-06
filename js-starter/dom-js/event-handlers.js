@@ -15,8 +15,3 @@ unorderedList.addEventListener('click', function(){
     unorderedList.style.backgroundColor  = 'blue';
 })
 
-var listItem = document.querySelectorAll('.animal');
-
-listItem.addEventListener('click', function(){
-    listItem.style.color = 'white';
-})
