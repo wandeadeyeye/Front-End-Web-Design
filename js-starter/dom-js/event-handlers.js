@@ -15,3 +15,15 @@ unorderedList.addEventListener('click', function(){
     unorderedList.style.backgroundColor  = 'blue';
 })
 
+
+////////////////////// CALLBACK FUNCTION ///////////////////////
+
+
+var paragraph = document.querySelector('#paragraph1');
+
+function toggleBackground() {
+    paragraph.classList.toggle('toggleBackground');
+};
+
+paragraph.addEventListener('click', toggleBackground);
+
