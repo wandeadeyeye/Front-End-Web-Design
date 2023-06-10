@@ -3,12 +3,12 @@
 
 var h1Element = document.querySelector('h1');
 
-h1Element.style.textAlign = 'center';
+// h1Element.style.textAlign = 'center';
 h1Element.style.color = 'red';
 
 var h3Element = document.querySelector('h3');
 
-h3Element.style.textAlign = 'center';
+// h3Element.style.textAlign = 'center';
 
 var isYellow = false;
 var bodyElement = document.querySelector('body');
