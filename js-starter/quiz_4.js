@@ -2,6 +2,7 @@
 
 ///////// 1
 
+
 var subtraction = function (x, y) {
     return y - x;
 }
@@ -9,7 +10,9 @@ var subtraction = function (x, y) {
 var result = subtraction(5, 9);
 console.log(result);
 
+
 ///////// 2
+
 
 function isOdd(number) {
     if (number % 2 !== 0) {
@@ -21,7 +24,9 @@ function isOdd(number) {
 var final = isOdd(5);
 console.log(final);
 
+
 //////// 3
+
 
 var addition = function (num) {
     var res = 0;
