@@ -1,3 +1,6 @@
+////// QUIZZ - 1
+
+
 var alex_grades = (90 + 80 + 95) / 3;
 
 var sara_grades = (89 + 76 + 98) / 3;
@@ -8,7 +11,9 @@ console.log('Alex average grade:', alex_grades);
 console.log('Sara average grade:', sara_grades);
 console.log('Nancy average grade:', nancy_grades);
 
+
 // finding who has the highest medium grade
+
 
 switch (true) {
     case (alex_grades > sara_grades && alex_grades > nancy_grades):
