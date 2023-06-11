@@ -3,6 +3,7 @@
 
 ///////// 1
 
+
 var numbers = [];
 
 for (var i = 0; i <= 20; i++) {
@@ -11,6 +12,7 @@ for (var i = 0; i <= 20; i++) {
 
 
 ///////// 2
+
 
 console.log(numbers);
 

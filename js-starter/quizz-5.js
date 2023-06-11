@@ -2,14 +2,15 @@
 
 /////////// 01
 
+
 var books = ['Harry Potter','Hobbit','Hungar Games','Little Prince'];
 
 var book = books[books.length - 1];
 console.log(book);
 
 
-
 //////////// 02
+
 
 var films = [
     ['hobbit1','hobbit2','hobbit3'],

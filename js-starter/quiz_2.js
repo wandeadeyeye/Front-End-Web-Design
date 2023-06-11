@@ -1,12 +1,12 @@
 
 //QUIZ 1
 
-// var number = 132;
+var number = 132;
 
-// while (number <= 148) {
-//     console.log(number);
-//     number += 2;
-// }
+while (number <= 148) {
+    console.log(number);
+    number += 2;
+}
 
 //QUIZ 2
 
