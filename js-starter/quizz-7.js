@@ -25,3 +25,4 @@ universities.forEach(function (university) {
         console.log(university.Name);
     }
 });
+
