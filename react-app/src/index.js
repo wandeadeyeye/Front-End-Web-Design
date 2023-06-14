@@ -2,8 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 const App = () => {
+    const getButton = 'Click Me!';
     return(
-        <div>Hello, world!</div>
+        <div>
+            <label for="name" className="label">enter e-mail</label>
+            <input id="name" type="text"/>
+            <button style={{backgroundColor:'red', color:'white'}}>
+                {getButton}
+            </button>
+        </div>
     )
 }
 
