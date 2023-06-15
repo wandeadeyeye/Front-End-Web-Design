@@ -23,14 +23,14 @@ var Jane = {
 John.say();
 Jane.say();
 
-// function say() {
-//     console.log('say hi Jane');
-// }
+function say() {
+    console.log('say hi Jane');
+}
 
-// say();
+say();
 
-// function say() {
-//     console.log('say hi John');
-// }
+function say() {
+    console.log('say hi John');
+}
 
-// say();
+say();
