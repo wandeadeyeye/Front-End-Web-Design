@@ -1,6 +1,5 @@
 ////////////////////////// THIS KEYWORD //////////////////////
 
-
 function addition(x, y) {
     console.log(x + y);
     console.log(this);
