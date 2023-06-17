@@ -2,14 +2,26 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 const App = () => {
-    const buttonAction = 'Click Me!';
     return(
-        <div>
-            <label for="name" className="label">enter e-mail</label>
-            <input id="name" type="text"/>
-            <button style={{backgroundColor:'red', color:'white'}}>
-                {buttonAction}
-            </button>
+        <div className='ui comment'>
+            <div className='comment'>
+                <a href="/" className='avatar'>
+                    <img alt="Profile Picture"/>
+                </a>
+                <div className='content'>
+                    <a href="/" className='authur'>
+                        John
+                    </a>
+                    <div className='metadata'>
+                        <span className='data'>
+                            Today at 6:45PM
+                        </span>
+                    </div>
+                    <div className='text'>
+                        its amazing
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
