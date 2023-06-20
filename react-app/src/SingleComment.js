@@ -8,7 +8,7 @@ const SingleComment = (props) => {
         <div className='ui comment'>
             <div className='comment'>
                 <a href="/" className='avatar'>
-                    <img src={props.picture} alt="Profile" width={60}/>
+                    <img src={props.picture} alt="Profile" />
                 </a>
                 <div className='content'>
                     <a href="/" className='authur'>
