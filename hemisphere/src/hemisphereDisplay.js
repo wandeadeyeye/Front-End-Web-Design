@@ -8,4 +8,5 @@ const hemisphereDisplay = () => {
     )
 }
 
+
 export default hemisphereDisplay;
