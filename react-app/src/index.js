@@ -6,6 +6,8 @@ import profile3 from './image/img3.jpg';
 import SingleComment from './SingleComment';
 import UserCard from './UserCard';
 
+// card 
+
 const App = () => {
     return(
         <div className='ui comment'>
@@ -37,6 +39,7 @@ const App = () => {
     )
 }
 
+// render
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
