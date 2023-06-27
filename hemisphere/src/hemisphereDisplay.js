@@ -10,5 +10,4 @@ const hemisphereDisplay = () => {
 
 // to export
 
-
 export default hemisphereDisplay;
