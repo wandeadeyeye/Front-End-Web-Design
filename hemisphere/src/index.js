@@ -17,14 +17,24 @@ class App extends React.Component {
   }
 
   render() {
+    if (this.state.errorMessage && !this.state.latitude) {
+      return <div> {this.state.errorMessage} </div>
+    }
 
-    return(
-      <div>
-        { this.state.latitude }
-        { this.state.errorMessage }
-      </div>
-    )
-  };
+    if (!this.state.errorMessage && this.state.latitude) {
+      return <div> {this.state.latitude} </div>
+    }
+
+    else {
+      return <div>Loading...</div>
+    }
+    // return(
+    //   <div>
+    //     { this.state.latitude }
+    //     { this.state.errorMessage }
+    //   </div>
+    // )
+  }
 }
 
 
