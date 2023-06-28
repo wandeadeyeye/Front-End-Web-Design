@@ -11,8 +11,9 @@ class App extends React.Component {
       (position) => {
         this.setState ({ latitude: position.coords.latitude })
       },
-      (error) => 
+      (error) => {
       this.setState ({ errorMessage: error.message })
+      }
     );
   }
 
@@ -28,15 +29,9 @@ class App extends React.Component {
     else {
       return <div>Loading...</div>
     }
-    // return(
-    //   <div>
-    //     { this.state.latitude }
-    //     { this.state.errorMessage }
-    //   </div>
-    // )
+
   }
 }
-
 
 // render
 
