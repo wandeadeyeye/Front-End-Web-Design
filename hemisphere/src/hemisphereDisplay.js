@@ -1,6 +1,7 @@
 import React from "react";
 
-const hemisphereDisplay = () => {
+const HemisphereDisplay = (props) => {
+    console.log(props.latitude);
     return(
         <div>
             Hey you are in Northern hemisphere
@@ -10,4 +11,4 @@ const hemisphereDisplay = () => {
 
 // export
 
-export default hemisphereDisplay;
+export default HemisphereDisplay;
