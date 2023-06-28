@@ -8,6 +8,6 @@ const hemisphereDisplay = () => {
     )
 }
 
-// to export
+// export
 
 export default hemisphereDisplay;
