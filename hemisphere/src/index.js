@@ -17,7 +17,7 @@ class App extends React.Component {
     );
   }
 
-  render() {
+  render () {
     if (this.state.errorMessage && !this.state.latitude) {
       return <div> {this.state.errorMessage} </div>
     }
