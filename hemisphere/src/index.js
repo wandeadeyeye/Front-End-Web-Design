@@ -27,7 +27,7 @@ class App extends React.Component {
     }
 
     else {
-      return <div>Loading....</div>
+      return <div>Loading...</div>
     }
 
   }
