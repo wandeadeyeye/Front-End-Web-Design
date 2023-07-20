@@ -11,4 +11,3 @@ const HemisphereDisplay = (props) => {
 
 // export
 export default HemisphereDisplay;
-
