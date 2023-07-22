@@ -1,4 +1,6 @@
 import React from "react";
+import southernHemisphere from './'
+import northernHemisphere from './'
 
 const HemisphereDisplay = ({latitude}) => {
     console.log(latitude);
