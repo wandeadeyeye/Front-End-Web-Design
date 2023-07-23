@@ -2,6 +2,7 @@ import React from "react";
 import southernHemisphere from './'
 import northernHemisphere from './'
 
+
 const HemisphereDisplay = ({latitude}) => {
     console.log(latitude);
     const picture = latitude > 0 ? 'Northern Hemisphere' : 'Southern Hemisphere';
