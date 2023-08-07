@@ -17,9 +17,6 @@ const HemisphereConfig = {
 
 const HemisphereDisplay = ({latitude}) => {
 
-    // console.log(latitude);
-
-    // const picture = latitude > 0 ? northernHemisphere : southernHemisphere;
     const hemisphere = latitude > 0 ? 'Northern' : 'Southern';
     const{ text, picture } = HemisphereConfig[hemisphere]
 
