@@ -28,4 +28,5 @@ const SingleComment = (props) => {
     )
 }
 
+// export
 export default SingleComment;

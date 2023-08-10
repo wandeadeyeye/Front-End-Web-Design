@@ -17,4 +17,5 @@ const UserCard = (props) => {
     )
 }
 
+// export
 export default UserCard;
