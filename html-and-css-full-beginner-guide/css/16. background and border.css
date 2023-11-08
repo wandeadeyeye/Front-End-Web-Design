@@ -1,6 +1,6 @@
 body{
     color: #05baf1;
-     background-color: pink;
+    background-color: pink;
     background-image: url(assets/flower.jpg);
     background: pink url(assets/flower.jpg) no-repeat center bottom;
     background: linear-gradient(90deg, green, white, green);
@@ -16,4 +16,3 @@ h1{
     -o-border-image: url(assets/estasio_ico.png) 20 round;
     -moz-border-image: url(assets/estasio_ico.png) 20 round;
 }
-
